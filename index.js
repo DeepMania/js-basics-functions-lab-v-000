@@ -30,6 +30,9 @@ function calculatesFarePrice(pointA, pointB) {
       rate = 0;
     }
     else if (totalFeet > 400 && totalFeet <= 2000) {
-      rate = ((totalFeet-400)*2)
+      rate = ((totalFeet-400)*2);
+    } else {
+      rate = "cannot travel that far";
     }
+    return rate;
 }
