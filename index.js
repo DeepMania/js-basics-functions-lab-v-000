@@ -7,3 +7,7 @@ function distanceFromHqInBlocks(streetNumber) {
     }
   return blocksFromHq;
 }
+
+function distanceFromHqInFeet(streetNumber) {
+  
+}
