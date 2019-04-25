@@ -16,9 +16,9 @@ function distanceFromHqInFeet(streetNumber) {
 function distanceTravelledInFeet(pointA, pointB) {
   let distanceTotalFeet;
     if (pointA > pointB) {
-      distanceTotalFeet = (pointA - pointB);
+      distanceTotalFeet = ((pointA - pointB)*264);
     } else {
-      distanceTotalFeet = (pointB - pointA);
+      distanceTotalFeet = ((pointB - pointA)*264);
     }
     return distanceTotalFeet;
 }
