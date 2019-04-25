@@ -31,7 +31,7 @@ function calculatesFarePrice(pointA, pointB) {
     }
     else if (totalFeet > 400 && totalFeet <= 2000) {
       rate = ((totalFeet-400)*2);
-    } 
+    }
     else if (totalFeet > 2000 && totalFeet <2500) {
       
     }
