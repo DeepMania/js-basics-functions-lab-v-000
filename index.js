@@ -25,5 +25,11 @@ function distanceTravelledInFeet(pointA, pointB) {
 
 function calculatesFarePrice(pointA, pointB) {
   let totalFeet = distanceTravelledInFeet(pointA, pointB);
-  
+  let rate;
+    if (totalFeet <= 400) {
+      rate = 0;
+    }
+    else if (totalFeet > 400 && totalFeet <= 2000) {
+      rate = ((totalFeet-400)*2)
+    }
 }
