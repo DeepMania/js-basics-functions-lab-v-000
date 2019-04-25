@@ -22,3 +22,7 @@ function distanceTravelledInFeet(pointA, pointB) {
     }
     return distanceTotalFeet;
 }
+
+function calculatesFarePrice(pointA, pointB) {
+
+}
