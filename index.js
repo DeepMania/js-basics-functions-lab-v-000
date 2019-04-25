@@ -9,5 +9,6 @@ function distanceFromHqInBlocks(streetNumber) {
 }
 
 function distanceFromHqInFeet(streetNumber) {
-  
+  let feetFromHq = distanceFromHqInFeet(streetNumber);
+  return feetFromHq;
 }
