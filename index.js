@@ -24,5 +24,6 @@ function distanceTravelledInFeet(pointA, pointB) {
 }
 
 function calculatesFarePrice(pointA, pointB) {
+  let totalFeet = distanceTravelledInFeet(pointA, pointB);
   
 }
