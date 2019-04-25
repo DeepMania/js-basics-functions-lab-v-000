@@ -17,5 +17,7 @@ function distanceTravelledInFeet(pointA, pointB) {
   let distanceTotalFeet;
     if (pointA > pointB) {
       distanceTotalFeet = (pointA - pointB);
+    } else {
+      distanceTotalFeet = (pointB - pointA);
     }
 }
