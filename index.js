@@ -20,4 +20,5 @@ function distanceTravelledInFeet(pointA, pointB) {
     } else {
       distanceTotalFeet = (pointB - pointA);
     }
+    return distanceTotalFeet;
 }
